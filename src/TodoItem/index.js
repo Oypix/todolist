@@ -12,7 +12,7 @@ function TodoItem(props){
                 onClick={props.onCompleted}
             >
                 
-            V
+            ✓
             </span>
             <p className={`TodoItem-p ${props.completed && 'TodoItem-p--complete'}`}>
             {props.text}
